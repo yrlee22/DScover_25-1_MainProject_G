@@ -41,7 +41,7 @@ def get_grade(prob):
         return "5등급"
 
 # 자치구 및 법정동 선택
-st.subheader("서울시 지하공사 취약 지역 리스크 평가 - 지반침하 위험 중심으로")
+st.subheader("서울시 지반침하 위험 지도")
 gu_list = sorted(df["시군구명"].unique())
 col1, col2 = st.columns(2)
 
